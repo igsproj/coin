@@ -1,0 +1,75 @@
+.cur-list-input {
+  cursor: pointer;
+}
+
+.info-block-cur {
+  padding: 50px 50px;
+}
+
+.cur-exchange-wrap {
+  flex-wrap: wrap;
+}
+
+.cur-wrap {
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.cur-exchange,
+.cur-rates {
+  width: 100%;
+}
+
+.info-block-cur {
+  padding: 15px 15px;
+}
+
+@media (min-width: 400px) {
+  .cur-exchange-amount {
+    max-width: 300px;
+  }
+
+  .cur-exchange-select {
+    width: 134px;
+  }
+}
+
+@media (min-width: 460px) {
+  .info-block-cur {
+    padding: 30px 20px;
+  }
+}
+
+@media (min-width: 735px) {
+  .cur-exchange,
+  .cur-rates {
+    width: 70%;
+  }
+}
+
+@media (min-width: 880px) {
+  .cur-wrap {
+    flex-wrap: nowrap;
+  }
+
+  .cur-exchange {
+    flex-basis: 44%;
+  }
+
+  .cur-rates {
+    flex-basis: 53%;
+  }
+}
+
+@media (min-width: 1070px) {
+  .info-block-cur {
+    padding: 50px 50px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .cur-exchange-wrap {
+    flex-wrap: nowrap;
+  }
+}

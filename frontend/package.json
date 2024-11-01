@@ -1,0 +1,40 @@
+{
+  "name": "coin",
+  "version": "1.0.0",
+  "description": "coin web bank",
+  "main": "",
+  "private": true,
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:report": "eslint ./",
+    "dev": "webpack serve --port=5500 --mode=development --env=dev",
+    "build": "webpack --mode=production --env=prod",
+    "test": "npx cypress open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.25.7",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-redom-jsx": "^3.0.6",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "cypress": "^13.15.1",
+    "html-webpack-plugin": "^5.6.0",
+    "image-minimizer-webpack-plugin": "^4.1.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "prettier": "^3.3.3",
+    "sharp": "^0.33.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "card-validator": "^10.0.0",
+    "chart.js": "^4.4.4",
+    "maska": "^3.0.2",
+    "redom": "^4.1.5"
+  }
+}

@@ -1,0 +1,14 @@
+.dashed {
+  width: 100%;
+  border-bottom: 1px dashed #000000;
+}
+
+.cur-descr-left {
+  align-items: first baseline;
+  flex-basis: 100%;
+}
+
+.cur-amount {
+  min-height: 411px;
+  /* overflow-y: scroll; */
+}

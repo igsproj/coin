@@ -1,0 +1,21 @@
+.chart12-ad {
+  max-height: 280px;
+  margin-top: -20px;
+}
+
+@media (min-width: 900px) {
+  .chart12-ad {
+    margin-top: -40px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .chart12-ad {
+    margin-top: -58px;
+  }
+
+  .chart12 {
+    padding-left: 98px;
+    padding-right: 98px;
+  }
+}

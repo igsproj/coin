@@ -1,0 +1,29 @@
+.messages {
+  position: fixed;
+  width: 250px;
+  z-index: 10;
+}
+
+.messages-item {
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: white;
+  min-height: 60px;
+}
+
+.message-error {
+  background-color: salmon;
+}
+
+.message-info {
+  background-color: green;
+}
+
+.message-error-critical {
+  background-color: red;
+}
+
+.message-warn {
+  background-color: yellowgreen;
+  /* color: black; */
+}

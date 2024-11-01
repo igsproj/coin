@@ -1,0 +1,7 @@
+.pag-btn {
+  font-size: 24px;
+}
+
+.pag-btn:active {
+  color: green;
+}

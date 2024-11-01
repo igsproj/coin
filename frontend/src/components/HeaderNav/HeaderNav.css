@@ -1,0 +1,11 @@
+.header-btn {
+  background: var(--palette-col1);
+  padding: 14px 24px;
+  border: 2px solid var(--palette-col3);
+  border-radius: 7px;
+  color: var(--palette-col3);
+}
+
+.header-btn-active {
+  background: var(--palette-col4);
+}

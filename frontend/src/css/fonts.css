@@ -1,0 +1,197 @@
+/* 'Work Sans' не показывает кириллицу ! */
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 300;
+  src:
+    url('../assets/fonts/Work_Sans/woff2/WorkSans-Light.woff2') format('woff2'),
+    url('../assets/fonts/Work_Sans/woff/WorkSans-Light.woff') format('woff'),
+    url('../assets/fonts/Work_Sans/ttf/WorkSans-Light.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 400;
+  src:
+    url('../assets/fonts/Work_Sans/woff2/WorkSans-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Work_Sans/woff/WorkSans-Regular.woff') format('woff'),
+    url('../assets/fonts/Work_Sans/ttf/WorkSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 500;
+  src:
+    url('../assets/fonts/Work_Sans/woff2/WorkSans-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Work_Sans/woff/WorkSans-Medium.woff') format('woff'),
+    url('../assets/fonts/Work_Sans/ttf/WorkSans-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-weight: 600;
+  src:
+    url('../assets/fonts/Work_Sans/woff2/WorkSans-SemiBold.woff2') format('woff2'),
+    url('../assets/fonts/Work_Sans/woff/WorkSans-SemiBold.woff') format('woff'),
+    url('../assets/fonts/Work_Sans/ttf/WorkSans-SemiBold.ttf') format('ttf');
+}
+
+/* Ubuntu */
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  src:
+    url('../assets/fonts/Ubuntu/woff2/Ubuntu-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Ubuntu/woff/Ubuntu-Regular.woff') format('woff'),
+    url('../assets/fonts/Ubuntu/ttf/Ubuntu-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 500;
+  src:
+    url('../assets/fonts/Ubuntu/woff2/Ubuntu-Medium.woff2') format('woff2'),
+    url('../assets/fonts/Ubuntu/woff/Ubuntu-Medium.woff') format('woff'),
+    url('../assets/fonts/Ubuntu/ttf/Ubuntu-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  src:
+    url('../assets/fonts/Ubuntu/woff2/Ubuntu-Bold.woff2') format('woff2'),
+    url('../assets/fonts/Ubuntu/woff/Ubuntu-Bold.woff') format('woff'),
+    url('../assets/fonts/Ubuntu/ttf/Ubuntu-Bold.ttf') format('ttf');
+}
+
+.btn-font {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.logo-font {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--palette-col1);
+}
+
+.page-header-font {
+  /* font-family: 'Work Sans'; */
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  color: var(--palette-col2);
+}
+
+.block-header-font {
+  /* font-family: 'Work Sans'; */
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: var(--palette-col2);
+}
+
+.dlg-label-font {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: var(--palette-col9);
+}
+
+.dlg-input-font {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: var(--palette-col7);
+}
+
+.tab-header-font {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: var(--palette-col1);
+}
+
+.tab-row-font {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: var(--palette-col8);
+}
+
+.cur-text-font {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: var(--palette-col2);
+}
+
+.cur-text-amount {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: var(--palette-col2);
+}
+
+.custom-select-font {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: var(--palette-col8);
+}
+
+/* не используются, font задается в charts.js */
+.chart-x {
+  /* font-family: 'Work Sans'; */
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: var(--palette-col2);
+}
+
+.chart-y {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: var(--palette-col2);
+}

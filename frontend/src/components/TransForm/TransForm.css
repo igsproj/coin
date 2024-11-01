@@ -1,0 +1,82 @@
+.trans-form {
+  min-height: 288px;
+  max-width: 606px;
+}
+
+.trans-form-input-wrap {
+  column-gap: 18px;
+}
+
+.trans-form-input {
+  width: 300px;
+}
+
+.send-trans-btn {
+  max-height: 52px;
+}
+
+.card-logo {
+  width: 88px;
+  height: auto;
+}
+
+.acc-selector {
+  z-index: 10;
+}
+
+.trans-dlg-left {
+  display: none;
+}
+
+.trans-dlg-right {
+  max-width: fit-content;
+}
+
+.account-input::placeholder {
+  color: var(--palette-col7);
+}
+
+.amount-input::placeholder {
+  color: var(--palette-col7);
+}
+
+@media (min-width: 480px) {
+  .trans-dlg-left {
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 20%;
+  }
+
+  .account-input::placeholder {
+    color: var(--palette-col1);
+  }
+
+  .amount-input::placeholder {
+    color: var(--palette-col1);
+  }
+}
+
+@media (min-width: 585px) {
+  .trans-dlg-left {
+    padding-top: 2%;
+    padding-bottom: 19%;
+  }
+}
+
+@media (min-width: 1140px) {
+  .trans-dlg-left {
+    padding-top: 0;
+    padding-bottom: 20%;
+  }
+}
+
+@media (min-width: 1320px) {
+  .trans-dlg-left {
+    padding-top: 2%;
+    padding-bottom: 19%;
+  }
+
+  .trans-label-acc {
+    white-space: nowrap;
+  }
+}

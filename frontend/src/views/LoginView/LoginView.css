@@ -1,0 +1,67 @@
+.login-dlg {
+  width: auto;
+  padding: 25px 20px;
+  border-radius: 25px;
+}
+
+.login-dlg-left {
+  padding-top: 22%;
+  padding-bottom: 26%;
+  display: none;
+}
+
+.login-dlg-input {
+  width: auto;
+}
+
+.login-dlg-name::placeholder {
+  color: var(--palette-col7);
+}
+
+.login-dlg-pass::placeholder {
+  color: var(--palette-col7);
+}
+
+.login-dlg-header {
+  padding-bottom: 25px;
+}
+
+@media (min-width: 365px) {
+  .login-dlg-input {
+    width: 300px;
+  }
+}
+
+@media (min-width: 433px) {
+  .login-dlg-name::placeholder {
+    color: var(--palette-col1);
+  }
+
+  .login-dlg-pass::placeholder {
+    color: var(--palette-col1);
+  }
+
+  .login-dlg-left {
+    display: flex;
+  }
+
+  .login-dlg-header {
+    padding-bottom: 35px;
+  }
+}
+
+@media (min-width: 550px) {
+  .login-dlg {
+    width: 500px;
+    padding: 50px 40px;
+  }
+
+  .login-dlg-left {
+    padding-top: 20%;
+    padding-bottom: 23%;
+  }
+
+  .login-dlg {
+    border-radius: 50px;
+  }
+}

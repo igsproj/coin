@@ -1,0 +1,101 @@
+.acc-header-left {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.acc-details-top {
+  flex-wrap: wrap;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+.acc-chart-block {
+  flex-basis: 100%;
+}
+
+.acc-number {
+  font-size: 18px;
+}
+
+.account-list {
+  column-gap: 35px;
+  row-gap: 25px;
+}
+
+.acc-list-sort {
+  width: auto;
+}
+
+.account-item {
+  min-width: 300px;
+  padding: 10px;
+}
+
+.header-balance-wrap {
+  flex-wrap: wrap;
+}
+
+.chart6-ad {
+  max-height: 230px;
+  margin-top: -15px;
+}
+
+/* при данном значении удалось добиться адаптива от графика */
+.chart6 {
+  width: 99%;
+}
+
+@media (min-width: 365px) {
+  .account-item {
+    min-width: 330px;
+    padding: 22px;
+  }
+}
+
+@media (min-width: 433px) {
+  .acc-list-sort {
+    width: 300px;
+  }
+
+  .acc-number {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 550px) {
+  .acc-number {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 900px) {
+  .account-list {
+    column-gap: 70px;
+    row-gap: 50px;
+  }
+
+  .acc-details-top {
+    column-gap: 25px;
+  }
+
+  .acc-number {
+    font-size: 34px;
+  }
+
+  .chart6-ad {
+    margin-top: -37px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .acc-details-top {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1320px) {
+  .acc-details-top {
+    column-gap: 50px;
+  }
+}

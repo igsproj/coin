@@ -1,0 +1,153 @@
+:root {
+  --palette-col1: #ffffff;
+  --palette-col2: #000000;
+  --palette-col3: #116acc;
+  --palette-col4: #a0c3ff;
+  --palette-col5: #9ca3af;
+  --palette-col6: #f3f4f6;
+  --palette-col7: #6b7280;
+  --palette-col8: #374151;
+  --palette-col9: #182233;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+.header-wrap {
+  background-color: var(--palette-col3);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.shared-btn {
+  padding: 16px 24px;
+  background: var(--palette-col3);
+  border-radius: 7px;
+  color: var(--palette-col1);
+}
+
+.page-header {
+  padding-top: 44px;
+  padding-bottom: 51px;
+  row-gap: 30px;
+}
+
+.info-block-white {
+  background-color: var(--palette-col1);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.info-block-gray {
+  background-color: var(--palette-col6);
+}
+
+.maps {
+  width: 100%;
+  height: 728px;
+}
+
+.half-size {
+  flex-basis: 50%;
+}
+
+.spinner {
+  position: fixed;
+}
+
+.bitcoin-big {
+  width: 150px;
+  transition: transform 1s ease-in-out;
+}
+
+.bitcoin-sm {
+  width: 52px;
+  transition: transform 1s ease-in-out;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.rot-1 {
+  transform: rotate3d(1, 0, 0, 180deg);
+  filter: opacity(0%);
+}
+
+.rot-2 {
+  transform: rotate3d(0, 1, 0, 180deg);
+  filter: opacity(0%);
+}
+
+.rot-3 {
+  transform: rotate3d(0, 0, 1, 180deg);
+  filter: opacity(0%);
+}
+
+.pd-top-bottom-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cg-35 {
+  column-gap: 35px;
+}
+
+.cg-49 {
+  column-gap: 49px;
+}
+
+.cg-50 {
+  column-gap: 50px;
+}
+
+.cg-25 {
+  column-gap: 25px;
+}
+
+.cg-10 {
+  column-gap: 10px;
+}
+
+.cg-12 {
+  column-gap: 12px;
+}
+
+.cg-15 {
+  column-gap: 15px;
+}
+
+.cg-18 {
+  column-gap: 18px;
+}
+
+.rg-50 {
+  row-gap: 50px;
+}
+
+.rg-9 {
+  row-gap: 9px;
+}
+
+.rg-44 {
+  row-gap: 44px;
+}
+
+.rg-25 {
+  row-gap: 25px;
+}
+
+.rg-20 {
+  row-gap: 20px;
+}
+
+.rg-10 {
+  row-gap: 10px;
+}
+
+.rg-5 {
+  row-gap: 5px;
+}
+
+.pdb-30 {
+  padding-bottom: 30px;
+}

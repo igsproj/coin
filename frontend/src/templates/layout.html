@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- &load=package.controls,package.geoObjects -->
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header style="display: none">
+      <div class="container header-wrap">
+        <div class="flex-row header">
+          <div id="header-logo-id">
+            <span id="logo-text-id" class="logo-font">Coin.</span>
+            <img id="spinner-head-id" class="img-auto bitcoin-sm rotate3d none" />
+          </div>
+          <nav id="header-nav-id"></nav>
+        </div>
+      </div>
+    </header>
+
+    <main style="display: none">
+      <div class="container" id="app-view-id"></div>
+      <div class="messages" id="messages-id"></div>
+    </main>
+
+    <div class="spinner abs-xy-center">
+      <img id="spinner-id" class="img-auto bitcoin-big rotate3d" />
+    </div>
+  </body>
+</html>
