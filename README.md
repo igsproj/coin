@@ -29,11 +29,11 @@ Web приложение "Coin"<br>
 
 ## ssh ##
 
-git@github.com:igsproj/coin.git<br>
+git clone git@github.com:igsproj/coin.git<br>
 
 ## https ##
 
-https://github.com/igsproj/coin.git<br>
+git clone https://github.com/igsproj/coin.git<br>
 
 cd coin<br>
 
