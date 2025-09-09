@@ -19,8 +19,8 @@ const expressWs = require('express-ws')(app)
 const port = 3000
 
 const AUTH_DATA = Object.freeze({
-	login: 'developer',
-	password: 'skillbox',
+	login: 'test_user',
+	password: 'test_pass',
 	token: 'ZGV2ZWxvcGVyOnNraWxsYm94'
 })
 
